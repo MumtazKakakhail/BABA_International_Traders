@@ -122,15 +122,15 @@ background-position: center;
 .div-2 h2 {
   font-size:  24px;
   color: #080808;
-  /* margin-top: 50px; */
+  margin-bottom: 10px;
   font-weight: bold;
   padding: 0 20px;
   text-align: center;
 }
 .div-2 p {
   font-size: 18px;
-  color: #8f8e8e;
-  /* margin-top: 20px; */
+  color: #d1cccc;
+  margin-top: 20px;
   padding: 0 20px;
   text-align: center;
 }
