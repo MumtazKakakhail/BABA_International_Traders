@@ -5,17 +5,26 @@
 }
 /* navbar */
 .navbar {
-  background: #3a3938;
-  color: rgb(253, 251, 251);
-  padding: 15px;
+  background: #003366;
+    padding: 15px 0;
+    color: white;
+    text-align: center;
 }
-.container {
+
+.Navbar Links 
+.navbar a {
+  color: white;
+  text-decoration: none;
+  padding: 10px 15px;
+} 
+
+ .container {
   display: flex;
   justify-content: space-between;
   align-items: center;
   max-width: 1200px;
   margin: auto;
-}
+} 
 .nav-links {
   list-style: none;
   display: flex;
@@ -33,7 +42,7 @@
   color: #fd7301;
   transform: translate3d(0, -2px, 0);
   transition: all 0.3s ease-in-out;
-}
+} 
 .dropdown-menu {
   display: none;
   position: abso
@@ -91,7 +100,7 @@
 }
 
 .logo img {
-  height: 50px; /* Adjust size */
+  height: 50px; 
   width: auto;
   display: block;
 }
