@@ -1,0 +1,219 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+/* navbar */
+.navbar {
+  background: #3a3938;
+  color: rgb(253, 251, 251);
+  padding: 15px;
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: auto;
+}
+.nav-links {
+  list-style: none;
+  display: flex;
+}
+.nav-links li {
+  position: relative;
+}
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  padding: 10px 15px;
+  display: block;
+}
+.nav-links a:hover {
+  color: #fd7301;
+ transform: translate3d(0, -2px, 0);
+  transition: all 0.3s ease-in-out;
+}
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  background: #444;
+  list-style: none;
+  min-width: 150px;
+}
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+.login-btn {
+  background: #f90;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+.login-btn:hover {
+  background: #f60;
+}
+.menu-toggle {
+  display: none;
+  background: none;
+  border: none;
+  font-size: 24px;
+  color: white;
+  cursor: pointer;
+}
+
+.logo {
+  font-size: 24px;  
+  font-weight: bold;
+  white-space: nowrap; 
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  padding: 10px 15px;
+}
+
+.login-btn {
+  background: #f90;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+
+.logo img {
+  height: 50px;  /* Adjust size */
+  width: auto;
+  display: block;
+}
+
+
+/* Hero Section */
+.hero {
+  background: url("./images/—Pngtree—logistics\ truck\ with\ container\ speeding_13301599.jpg");
+  display: flex;
+  /* padding-bottom: 100px; */
+background-position: center;
+  background-size: cover;
+  height: 600px;
+  color: rgb(15, 15, 15);
+  /* text-align: center; */
+  /* font-size: 16px; */
+}
+.div-2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.div-2 h2 {
+  font-size:  24px;
+  color: #080808;
+  /* margin-top: 50px; */
+  font-weight: bold;
+  padding: 0 20px;
+  text-align: center;
+}
+.div-2 p {
+  font-size: 18px;
+  color: #8f8e8e;
+  /* margin-top: 20px; */
+  padding: 0 20px;
+  text-align: center;
+}
+.hero-btn {
+  padding: 10px 16px;
+  margin-top: 20px;
+  margin-left:20px ;
+  background-color: #007bff;
+  background-color: transparent;
+  background-image: linear-gradient(90deg, #0272aa 0%, #0e0a41 90%);
+  color: #ffffff;
+  justify-items: center;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.hero-btn:hover {
+  background-color: transparent;
+  background-image: linear-gradient(90deg, #132fee 0%, #0bafff 90%);
+}
+/* Track Your Shipment */
+.tracking {
+  text-align: center;
+  padding: 50px 20px;
+  background: #f9f9f9;
+}
+.tracking h2 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 20px;
+}
+.tracking p {
+  font-size: 18px;
+  color: #666;
+  margin-bottom: 30px;
+}
+.tracking-input {
+  width: 90%;
+  max-width: 400px;
+  padding:5px 10px;
+ border: 2px solid #003366;
+  border-radius: 5px;
+}
+
+.track-btn {
+  background: #003366;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.track-btn:hover {
+  background: #ffcc00;
+  color: black;
+}
+/* For Small Screens */
+@media (max-width: 768px) {
+  .container {
+      flex-direction: row;
+      justify-content: space-between;
+  }
+  .logo {
+      font-size: 20px; 
+  }
+}
+
+@media (max-width: 768px) {
+  .nav-links {
+      display: none;
+      flex-direction: column;
+      background: #333;
+      width: 100%;
+      position: absolute;
+      top: 60px;
+      left: 0;
+  }
+  .nav-links.show {
+      display: flex;
+  }
+   .menu-toggle {
+      display: block;
+  }
+      }
