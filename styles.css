@@ -41,7 +41,7 @@
   position: relative;
 }
 .nav-links a {
-  color: white;
+  color: white; 
   text-decoration: none;
   padding: 10px 15px;
   display: block;
