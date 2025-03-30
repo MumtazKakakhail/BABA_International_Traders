@@ -72,6 +72,11 @@
 .login-btn:hover {
   background: #f60;
 }
+.span {
+  color:white;
+  font-weight: bold;
+  size: 20px;
+}
 .menu-toggle {
   display: none;
   background: none;
@@ -173,6 +178,7 @@
   text-align: center;
   padding: 50px 20px;
   background: #f9f9f9;
+
 }
 .tracking h2 {
   font-size: 24px;
@@ -205,6 +211,404 @@
   background: #ffcc00;
   color: black;
 }
+
+/* Services Section */
+.services {
+  background-color: #f9f9f9;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.services h2 {
+  font-size: 2.2rem;
+  margin-bottom: 40px;
+  color: #0066cc;
+}
+
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 cards per row */
+  gap: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.service-card {
+  background: white;
+  border-radius: 10px;
+  padding: 25px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.service-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+.service-icon {
+  font-size: 2.5rem;
+  color: #0066cc;
+  margin-bottom: 15px;
+}
+
+.service-card h3 {
+  font-size: 1.5rem;
+  color: #0066cc;
+  margin-bottom: 10px;
+}
+
+.service-card p {
+  font-size: 1rem;
+  color: #555;
+  line-height: 1.5;
+}
+
+/* Responsive Design */
+@media (max-width: 992px) {
+  .services-grid {
+    grid-template-columns: repeat(2, 1fr); /* 2 cards per row for tablets */
+  }
+}
+
+@media (max-width: 600px) {
+  .services-grid {
+    grid-template-columns: repeat(1, 1fr); /* 1 card per row for mobile */
+  }
+}
+
+
+/* Features Section */
+.features {
+  background-color: #f0f5ff;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.features h2 {
+  font-size: 2.2rem;
+  margin-bottom: 40px;
+  color: #0066cc;
+}
+
+.features-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.features-content {
+  flex: 1;
+  min-width: 300px;
+  max-width: 600px;
+  text-align: left;
+}
+
+.features-image {
+  flex: 1;
+  min-width: 300px;
+  max-width: 600px;
+  text-align: center;
+}
+
+.features-image img {
+  max-width: 100%;
+  border-radius: 8px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.feature-list {
+  list-style: none;
+  margin-top: 20px;
+  padding: 0;
+}
+
+.feature-list li {
+  margin-bottom: 15px;
+  display: flex;
+  align-items: flex-start;
+  font-size: 1rem;
+  color: #333;
+}
+
+.feature-list li:before {
+  content: "\2713";
+  color: #0066cc;
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .features-container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .features-content {
+    text-align: center;
+  }
+
+  .feature-list li {
+    justify-content: center;
+  }
+}
+
+
+/* Tools Section */
+.tools {
+  background-color: #fff;
+}
+.tools h2 {
+  text-align: center;
+  font-size: 2.2rem;
+  margin: 50px;
+  color: #0066cc;
+
+}
+.tools-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
+}
+
+.tool-card {
+  border: 1px solid #e1e5ea;
+  border-radius: 8px;
+  padding: 25px;
+  background-color: #f7f9fc;
+  text-align: center;
+}
+
+.tool-icon {
+  font-size: 2rem;
+  color: #0066cc;
+  margin-bottom: 15px;
+}
+
+.tool-card h3 {
+  margin-bottom: 15px;
+  color: #333;
+}
+
+/* Partner Section */
+.partner {
+  background-color: #0066cc;
+  color: white;
+  text-align: center;
+}
+
+.partner h2 {
+  color: white;
+}
+
+.partner-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.partner-stats {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 40px;
+}
+
+.stat-item {
+  padding: 20px;
+  min-width: 200px;
+}
+
+.stat-number {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+/* Testimonials Section */
+.testimonials {
+  background-color: #f7f9fc;
+}
+
+.testimonial-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
+}
+
+.testimonial-card {
+  background-color: white;
+  border-radius: 8px;
+  padding: 30px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+  position: relative;
+}
+
+.testimonial-text {
+  font-style: italic;
+  margin-bottom: 20px;
+}
+
+.testimonial-text:before {
+  /* content: """; */
+  font-size: 4rem;
+  position: absolute;
+  top: 5px;
+  left: 10px;
+  color: #f0f0f0;
+  z-index: 0;
+}
+
+.client-info {
+  display: flex;
+  align-items: center;
+}
+
+.client-image {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 15px;
+  background-color: #e1e5ea;
+}
+
+.client-name {
+  font-weight: 600;
+}
+
+.client-company {
+  color: #666;
+  font-size: 0.9rem;
+}
+
+/* Contact Section */
+.contact {
+  background-color: #fff;
+}
+
+.contact-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.contact-info {
+  flex: 1;
+  min-width: 300px;
+  padding-right: 30px;
+}
+
+.contact-form {
+  flex: 1;
+  min-width: 300px;
+}
+
+.contact-item {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 20px;
+}
+
+.contact-icon {
+  min-width: 30px;
+  color: #0066cc;
+  margin-right: 10px;
+  font-size: 1.2rem;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: 500;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #e1e5ea;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+.form-group textarea {
+  min-height: 120px;
+}
+
+/* Footer */
+footer {
+  background-color: #2a2a2a;
+  color: #d9d9d9;
+  padding: 60px 0 30px;
+}
+
+.footer-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 30px;
+  margin-bottom: 30px;
+}
+
+.footer-section h3 {
+  color: white;
+  margin-bottom: 20px;
+  font-size: 1.2rem;
+}
+
+.footer-links {
+  list-style: none;
+}
+
+.footer-links li {
+  margin-bottom: 10px;
+}
+
+.footer-links a {
+  color: #d9d9d9;
+  transition: color 0.3s ease;
+}
+
+.footer-links a:hover {
+  color: white;
+  text-decoration: none;
+}
+
+.social-links {
+  display: flex;
+  margin-top: 15px;
+}
+
+.social-links a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background-color: #444;
+  color: white;
+  margin-right: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.social-links a:hover {
+  background-color: #0066cc;
+}
+
+.footer-bottom {
+  text-align: center;
+  padding-top: 30px;
+  border-top: 1px solid #444;
+}
+
 /* For Small Screens */
 @media (max-width: 768px) {
   .container {
