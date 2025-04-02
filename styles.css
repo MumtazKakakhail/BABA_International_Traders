@@ -341,6 +341,21 @@
   font-weight: bold;
   margin-right: 10px;
 }
+.btn {
+  background: #003366;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.btn:hover {
+  background-color: #005bb5;
+}
 
 /* Responsive Design */
 @media (max-width: 768px) {
