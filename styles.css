@@ -435,8 +435,14 @@
 /* Testimonials Section */
 .testimonials {
   background-color: #f7f9fc;
+  padding: 60px 20px;
+  text-align: center;
 }
-
+.testimonials h2 {
+  font-size: 2.2rem;
+  margin-bottom: 40px;
+  color: #0066cc;
+}
 .testimonial-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
