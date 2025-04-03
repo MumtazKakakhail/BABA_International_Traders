@@ -6,33 +6,32 @@
 /* navbar */
 .navbar {
   background: #003366;
-    padding: 15px 0;
-    color: white;
-    text-align: center;
-    position: fixed;
-    top: 0;   
-    left: 0;
-    width: 100%;
-    z-index: 1000%;
+  padding: 15px 0;
+  color: white;
+  text-align: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000%;
 }
 
-.Navbar Links 
-.navbar a {
+.Navbar Links .navbar a {
   color: white;
   text-decoration: none;
   padding: 10px 15px;
   position: fixed;
   top: 90%;
   left: 0%;
-} 
+}
 
- .container {
+.container {
   display: flex;
   justify-content: space-between;
   align-items: center;
   max-width: 1200px;
   margin: auto;
-} 
+}
 .nav-links {
   list-style: none;
   display: flex;
@@ -41,7 +40,7 @@
   position: relative;
 }
 .nav-links a {
-  color: white; 
+  color: white;
   text-decoration: none;
   padding: 10px 15px;
   display: block;
@@ -50,11 +49,10 @@
   color: #fd7301;
   transform: translate3d(0, -2px, 0);
   transition: all 0.3s ease-in-out;
-} 
+}
 .dropdown-menu {
   display: none;
-  position: abso
-  lute;
+  position: abso lute;
   background: #444;
   list-style: none;
   min-width: 150px;
@@ -73,7 +71,7 @@
   background: #f60;
 }
 .span {
-  color:white;
+  color: white;
   font-weight: bold;
   size: 20px;
 }
@@ -113,7 +111,7 @@
 }
 
 .logo img {
-  height: 50px; 
+  height: 50px;
   width: auto;
   display: block;
 }
@@ -178,7 +176,6 @@
   text-align: center;
   padding: 50px 20px;
   background: #f9f9f9;
-
 }
 .tracking h2 {
   font-size: 24px;
@@ -227,7 +224,7 @@
 
 .services-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr); 
+  grid-template-columns: repeat(3, 1fr);
   gap: 20px;
   max-width: 1200px;
   margin: 0 auto;
@@ -276,7 +273,6 @@
     grid-template-columns: repeat(1, 1fr); /* 1 card per row for mobile */
   }
 }
-
 
 /* Features Section */
 .features {
@@ -374,7 +370,6 @@
   }
 }
 
-
 /* Tools Section */
 .tools {
   background-color: #f9f9f9;
@@ -385,11 +380,10 @@
   font-size: 2.2rem;
   margin-bottom: 40px;
   color: #0066cc;
-
 }
 .tools-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr); 
+  grid-template-columns: repeat(3, 1fr);
   gap: 20px;
   max-width: 1200px;
   margin: 0 auto;
@@ -595,7 +589,7 @@ footer {
 
 .footer-container {
   display: grid;
-  grid-template-columns: repeat(4, 1fr); 
+  grid-template-columns: repeat(4, 1fr);
   gap: 30px;
   max-width: 1200px;
   margin: 0 auto;
