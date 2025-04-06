@@ -261,19 +261,6 @@
   line-height: 1.5;
 }
 
-/* Responsive Design */
-@media (max-width: 992px) {
-  .services-grid {
-    grid-template-columns: repeat(2, 1fr); /* 2 cards per row for tablets */
-  }
-}
-
-@media (max-width: 600px) {
-  .services-grid {
-    grid-template-columns: repeat(1, 1fr); /* 1 card per row for mobile */
-  }
-}
-
 /* Features Section */
 .features {
   background-color: #f0f5ff;
@@ -673,5 +660,16 @@ footer {
   }
   .menu-toggle {
     display: block;
+  }
+}
+@media (max-width: 992px) {
+  .services-grid {
+    grid-template-columns: repeat(2, 1fr); /* 2 cards per row for tablets */
+  }
+}
+
+@media (max-width: 600px) {
+  .services-grid {
+    grid-template-columns: repeat(1, 1fr); /* 1 card per row for mobile */
   }
 }
