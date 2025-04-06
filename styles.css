@@ -341,22 +341,6 @@
   background-color: #005bb5;
 }
 
-/* Responsive Design */
-@media (max-width: 768px) {
-  .features-container {
-    flex-direction: column;
-    text-align: center;
-  }
-
-  .features-content {
-    text-align: center;
-  }
-
-  .feature-list li {
-    justify-content: center;
-  }
-}
-
 /* Tools Section */
 .tools {
   background-color: #f9f9f9;
@@ -664,12 +648,27 @@ footer {
 }
 @media (max-width: 992px) {
   .services-grid {
-    grid-template-columns: repeat(2, 1fr); /* 2 cards per row for tablets */
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 
 @media (max-width: 600px) {
   .services-grid {
-    grid-template-columns: repeat(1, 1fr); /* 1 card per row for mobile */
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .features-container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .features-content {
+    text-align: center;
+  }
+
+  .feature-list li {
+    justify-content: center;
   }
 }
