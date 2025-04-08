@@ -414,24 +414,24 @@
   margin-bottom: 10px;
 }
 
-/* Testimonials Section */
-.testimonials {
+/* Users Section */
+.Users {
   background-color: #f7f9fc;
   padding: 60px 20px;
   text-align: center;
 }
-.testimonials h2 {
+.Users h2 {
   font-size: 2.2rem;
   margin-bottom: 40px;
   color: #0066cc;
 }
-.testimonial-grid {
+.User-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 30px;
 }
 
-.testimonial-card {
+.User-card {
   background-color: white;
   border-radius: 8px;
   padding: 30px;
@@ -439,12 +439,12 @@
   position: relative;
 }
 
-.testimonial-text {
+.User-text {
   font-style: italic;
   margin-bottom: 20px;
 }
 
-.testimonial-text:before {
+.User-text:before {
   /* content: """; */
   font-size: 4rem;
   position: absolute;
