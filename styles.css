@@ -52,8 +52,8 @@
 }
 .dropdown-menu {
   display: none;
-  position: abso lute;
-  background: #444;
+  position: absolute;
+  background: #2b2929;
   list-style: none;
   min-width: 150px;
 }
