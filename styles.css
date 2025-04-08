@@ -445,7 +445,6 @@
 }
 
 .User-text:before {
-  /* content: """; */
   font-size: 4rem;
   position: absolute;
   top: 5px;
