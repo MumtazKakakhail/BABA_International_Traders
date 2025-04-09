@@ -317,9 +317,8 @@
 .feature-list {
   list-style: none;
   margin-top: 20px;
-  padding-bottom: 20px;  
+  padding-bottom: 20px;
   padding: 0;
-
 }
 
 .feature-list li {
@@ -503,7 +502,7 @@
   font-size: 2.2rem;
   margin-bottom: 40px;
   margin-top: 40px;
-  color: #070707; 
+  color: #070707;
 }
 /* .contact p {
   text-align: center;
