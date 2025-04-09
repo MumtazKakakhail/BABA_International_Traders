@@ -55,7 +55,8 @@
   position: absolute;
   background: #003366;
   list-style: none;
-  min-width: 100px;
+  min-width: 50px;
+  margin-left: 16px;
 }
 .dropdown:hover .dropdown-menu {
   display: block;
