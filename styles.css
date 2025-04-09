@@ -238,7 +238,7 @@
 
 .service-card:hover {
   /* transform: translateY(-8px); */
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 
 .service-icon {
@@ -289,7 +289,17 @@
   max-width: 600px;
   text-align: left;
 }
-
+.features-content h3 {
+  font-size: 1.8rem;
+  color: #0066cc;
+  margin-bottom: 20px;
+}
+.features-content p {
+  font-size: 1rem;
+  color: #1c5acc;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
 .features-image {
   flex: 1;
   min-width: 300px;
@@ -307,7 +317,9 @@
 .feature-list {
   list-style: none;
   margin-top: 20px;
+  padding-bottom: 20px;  
   padding: 0;
+
 }
 
 .feature-list li {
@@ -490,7 +502,8 @@
   text-align: center;
   font-size: 2.2rem;
   margin-bottom: 40px;
-  color: #0d0d0e;
+  margin-top: 40px;
+  color: #070707; 
 }
 /* .contact p {
   text-align: center;
@@ -504,7 +517,6 @@
   flex-wrap: wrap;
   justify-content: space-between;
 }
-
 .contact-info {
   flex: 1;
   min-width: 300px;
