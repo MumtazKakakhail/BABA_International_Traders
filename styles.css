@@ -378,7 +378,10 @@
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
-
+.tool-card:hover {
+  border: 2px solid #818be6;
+  box-shadow: 0 0 10px #7a83d6;
+}
 .tool-icon {
   font-size: 2rem;
   color: #0066cc;
@@ -430,7 +433,7 @@
 
 /* Users Section */
 .Users {
-  background-color: #f7f9fc;
+  background-color: #dee9f7;
   padding: 60px 20px;
   text-align: center;
 }
@@ -476,11 +479,12 @@
 }
 
 .client-image {
-  width: 50px;
-  height: 50px;
-  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  border: none;
+  /* border-radius: 50%; */
   margin-right: 15px;
-  background-color: #e1e5ea;
+  /* background-color: #e1e5ea; */
 }
 
 .client-name {
@@ -552,7 +556,7 @@
 
 .form-group input,
 .form-group textarea {
-  width: 100%;
+  width: 95.5%;
   padding: 12px;
   border: 1px solid #e1e5ea;
   border-radius: 4px;
