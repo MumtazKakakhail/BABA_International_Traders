@@ -405,10 +405,9 @@
 .partner h2 {
   color: white;
   font-size: 2.2rem;
-text-transform: capitalize ;
-/* text-shadow: 0 4px 8px rgba(0, 0, 0, 1); */
+  text-transform: capitalize;
+  /* text-shadow: 0 4px 8px rgba(0, 0, 0, 1); */
   margin-bottom: 40px;
-
 }
 
 .partner-content {
@@ -461,7 +460,6 @@ text-transform: capitalize ;
 }
 .user-card:hover {
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
-
 }
 
 .User-text {
