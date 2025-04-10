@@ -588,10 +588,14 @@ footer {
 
 .footer-section h3 {
   color: white;
+  transition: color 0.3s ease;
   margin-bottom: 20px;
   font-size: 1.2rem;
 }
-
+.footer-section h3:hover {
+  color: rgb(1, 1, 247);
+  text-decoration: none;
+}
 .footer-links {
   list-style: none;
 }
@@ -607,7 +611,7 @@ footer {
 }
 
 .footer-links a:hover {
-  color: white;
+  color: rgb(248, 161, 79);
   text-decoration: none;
 }
 
