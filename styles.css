@@ -671,6 +671,12 @@ footer {
 }
 
 @media (max-width: 600px) {
+  .logo {
+    padding-left:22px;
+  }
+  .menu-toggle {
+    padding-right: 22px;
+  }
   .tracking {
     display: inline;
     text-align: center;
@@ -685,7 +691,7 @@ footer {
     grid-template-columns: repeat(1, 1fr);
   }
   .partner-stats {
-flex-direction: row;
+display:inline;
   }
 }
 @media (max-width: 992px) {
