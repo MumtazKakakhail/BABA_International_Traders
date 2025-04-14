@@ -648,6 +648,12 @@ footer {
     flex-direction: row;
     justify-content: space-between;
   }
+  .logo {
+    padding-left: 22px;
+  }
+  .login-btn {
+    display:flex;
+  }
   .nav-links {
     display: none;
     flex-direction: column;
@@ -657,8 +663,11 @@ footer {
     top: 60px;
     left: 0;
   }
+
   .menu-toggle {
     display: block;
+    padding-right: 30px;
+
   }
   .features-container {
     flex-direction: column;
@@ -667,6 +676,10 @@ footer {
   .features-content {
     text-align: center;
   }
+  .service-card:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
 }
 
 @media (max-width: 600px) {
@@ -675,6 +688,13 @@ footer {
   }
   .menu-toggle {
     padding-right: 22px;
+  }
+  .hero {
+    display: flex;
+    background-position: center;
+    background-size: cover;
+    height: 600px;
+    color: rgb(15, 15, 15);
   }
   .tracking {
     display: inline;
