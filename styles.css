@@ -714,7 +714,7 @@ footer {
   .services-grid {
     display: flex;
     flex-direction: column;
-    flex-grow: calc(3, 1); 
+    flex-grow: calc(3, 1);
   }
   .tools-grid {
     display: flex;
@@ -774,9 +774,9 @@ footer {
   .dropdown:hover .dropdown-menu {
     display: block;
   }
-   .menu-toggle { 
+  .menu-toggle {
     display: block;
-  } 
+  }
 
   .features-container {
     flex-direction: column;
@@ -805,7 +805,7 @@ footer {
   }
 }
 
-   @media (max-width: 992px) { 
+@media (max-width: 992px) {
   .services-grid {
     grid-template-columns: repeat(2, 1fr);
   }
@@ -852,7 +852,8 @@ footer {
     display: block;
     padding-right: 19px;
   }
-  .form-group input, .form-group textarea {
-  padding: 0.5rem;
+  .form-group input,
+  .form-group textarea {
+    padding: 0.5rem;
   }
-}  
+}
