@@ -400,6 +400,12 @@
   margin-bottom: 15px;
   color: #333;
 }
+.tool-card p {
+  font-size: 1rem;
+  color: #555;
+  line-height: 1.5;
+  padding-bottom: 16px;
+}
 
 /* Partner Section */
 .partner {
