@@ -794,6 +794,7 @@ footer {
   .logo {
     padding-left: 20px;
   }
+
   .login-btn {
     display: flex;
   }
@@ -825,7 +826,7 @@ footer {
     display: block;
     padding-right: 19px;
   }
-  .form-group input,
+  */ .form-group input,
   .form-group textarea {
     padding: 0.2rem;
   }
