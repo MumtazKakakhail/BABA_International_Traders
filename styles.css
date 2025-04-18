@@ -13,16 +13,7 @@
   top: 0;
   left: 0;
   width: 100%;
-  z-index: 1000%;
-}
-
-.Navbar Links .navbar a {
-  color: white;
-  text-decoration: none;
-  padding: 10px 15px;
-  position: fixed;
-  top: 90%;
-  left: 0%;
+  z-index: 999;
 }
 .menu-toggle {
   display: none;
@@ -199,7 +190,7 @@
 .tracking-input {
   width: 90%;
   max-width: 400px;
-  padding: 5px 10px;
+  padding: 8px 10px;
   border: 2px solid #003366;
   border-radius: 5px;
 }
