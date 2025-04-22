@@ -724,14 +724,6 @@ footer {
   .login-btn {
     display: flex;
   }
-  /* .nav-links {
-    display: none;
-    flex-direction: column;
-    background: #333;
-    width: 100%;
-    top: 60px;
-    left: 0;
-  } */
   .nav-links {
     display: none;
     flex-direction: column;
@@ -756,9 +748,6 @@ footer {
     min-width: 50px;
     margin-left: 16px;
   }
-  /* .dropdown:hover .dropdown-menu {
-    display:flex;
-  } */
   .menu-toggle {
     display: block;
     background-color: #003366;
@@ -833,8 +822,6 @@ footer {
     flex-direction: column;
     background: #333;
     width: 100%;
-    /* top: 60px;
-    left: 0; */
   }
   .nav-links a:hover {
     color: #fd7301;
