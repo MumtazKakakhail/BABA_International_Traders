@@ -121,56 +121,77 @@
 
 /* Hero Section */
 .hero {
-  background: url("./images/—Pngtree—logistics\ truck\ with\ container\ speeding_13301599.jpg");
+  position: relative;
+  background: linear-gradient(180deg, rgba(2,27,56,0.55), rgba(2,27,56,0.25)),
+              url("./images/—Pngtree—logistics\ truck\ with\ container\ speeding_13301599.jpg") center/cover no-repeat;
   display: flex;
-  background-position: center;
-  background-size: cover;
-  height: 37.5rem;
-  color: rgb(15, 15, 15);
-}
-.div-2 {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+  flex-direction: column; /* stack logo + text */
   align-items: center;
-  text-align: center;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.5);
-}
-.div-2 h2 {
-  font-size: 1.5rem;
-  color: #080808;
-  margin-bottom: 10px;
-  font-weight: bold;
-  padding: 0 20px;
-  text-align: center;
-}
-.div-2 p {
-  font-size: 1.1rem;
-  color: #d1cccc;
-  margin-top: 20px;
-  padding: 0 20px;
-  text-align: center;
-}
-.hero-btn {
-  padding: 10px 16px;
-  margin-top: 20px;
-  margin-left: 20px;
-  background-color: #007bff;
-  background-color: transparent;
-  background-image: linear-gradient(90deg, #0272aa 0%, #0e0a41 90%);
+  justify-content: flex-start; /* push content from top */
+  min-height: 80vh; /* taller, modern feel */
+  padding: 6rem 1.5rem 3rem;
   color: #ffffff;
-  justify-items: center;
-  border: none;
-  border-radius: 5px;
+  text-align: center;
+}
+
+/* Dark overlay for contrast */
+.hero::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(180deg, rgba(0,0,0,0.15), rgba(0,0,0,0.6));
+  pointer-events: none;
+  z-index: 0;
+}
+
+/* Content wrapper */
+.div-2 {
+  position: relative;
+  z-index: 2; /* above overlay */
+  max-width: 950px;
+  padding: 0 1rem;
+}
+
+/* Headline */
+.div-2 h2 {
+  font-size: clamp(2rem, 4vw, 3rem); /* responsive scaling */
+  line-height: 1.2;
+  color: #ffffff;
+  margin: 1rem 0 0.5rem;
+  font-weight: 700;
+  letter-spacing: -0.5px;
+}
+
+/* Subtext */
+.div-2 p {
+  font-size: 1.125rem;
+  color: rgba(255,255,255,0.9);
+  margin: 0 auto 2rem;
+  max-width: 65ch;
+  line-height: 1.6;
+}
+
+/* Primary CTA */
+.hero-btn {
+  display: inline-block;
+  padding: 1rem 2rem;
+  font-size: 1.05rem;
+  color: #fff;
+  background: linear-gradient(90deg, #ff9a4b 0%, #ff6a00 100%);
+  border: 0;
+  border-radius: 50px;
   cursor: pointer;
-  transition: background-color 0.3s ease;
+  font-weight: 600;
+  box-shadow: 0 10px 25px rgba(255,106,0,0.35);
+  transition: transform .2s ease, box-shadow .2s ease, opacity .2s ease;
+  text-decoration: none;
 }
 .hero-btn:hover {
-  background-color: transparent;
-  background-image: linear-gradient(90deg, #132fee 0%, #0bafff 90%);
+  transform: translateY(-4px);
+  box-shadow: 0 16px 35px rgba(255,106,0,0.45);
+  opacity: 0.96;
 }
+
 /* Track Your Shipment */
 .tracking {
   text-align: center;
