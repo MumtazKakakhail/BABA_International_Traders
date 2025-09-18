@@ -122,8 +122,13 @@
 /* Hero Section */
 .hero {
   position: relative;
-  background: linear-gradient(180deg, rgba(2,27,56,0.55), rgba(2,27,56,0.25)),
-              url("./images/—Pngtree—logistics\ truck\ with\ container\ speeding_13301599.jpg") center/cover no-repeat;
+  background: linear-gradient(
+      180deg,
+      rgba(2, 27, 56, 0.55),
+      rgba(2, 27, 56, 0.25)
+    ),
+    url("./images/—Pngtree—logistics\ truck\ with\ container\ speeding_13301599.jpg")
+      center/cover no-repeat;
   display: flex;
   flex-direction: column; /* stack logo + text */
   align-items: center;
@@ -139,7 +144,7 @@
   content: "";
   position: absolute;
   inset: 0;
-  background: linear-gradient(180deg, rgba(0,0,0,0.15), rgba(0,0,0,0.6));
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.6));
   pointer-events: none;
   z-index: 0;
 }
@@ -165,7 +170,7 @@
 /* Subtext */
 .div-2 p {
   font-size: 1.125rem;
-  color: rgba(255,255,255,0.9);
+  color: rgba(255, 255, 255, 0.9);
   margin: 0 auto 2rem;
   max-width: 65ch;
   line-height: 1.6;
@@ -182,13 +187,13 @@
   border-radius: 50px;
   cursor: pointer;
   font-weight: 600;
-  box-shadow: 0 10px 25px rgba(255,106,0,0.35);
-  transition: transform .2s ease, box-shadow .2s ease, opacity .2s ease;
+  box-shadow: 0 10px 25px rgba(255, 106, 0, 0.35);
+  transition: transform 0.2s ease, box-shadow 0.2s ease, opacity 0.2s ease;
   text-decoration: none;
 }
 .hero-btn:hover {
   transform: translateY(-4px);
-  box-shadow: 0 16px 35px rgba(255,106,0,0.45);
+  box-shadow: 0 16px 35px rgba(255, 106, 0, 0.45);
   opacity: 0.96;
 }
 
